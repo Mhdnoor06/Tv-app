@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prayer Times Display</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#009578" />
+    <link rel="apple-touch-icon" href="photos/logo.svg" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div id="app">
+        <!-- <header> -->
+        <!-- <img src="logo.png" alt="LOGO" /> -->
+        <h1 style="margin: 40px 0">Prayer Times</h1>
+        <!-- </header> -->
+        <div class="upcomingprayer">
+          <div id="clock-container">
+            <div id="clock"></div>
+            <div class="container">
+              <span id="next-prayer-name">Maghrib</span>
+              <div id="next-prayer">
+                <span id="next-prayer-time">12:21 PM</span>
+                <span id="countdown">(-00:36:54)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div id="prayer-times">
+          <div class="prayer">
+            <span class="prayer-name">Next Prayer - Isha</span>
+            <span class="prayer-time">05:59 AM</span>
+          </div>
+        </div> -->
+        </div>
+
+        <section>
+          <div class="prayer-times">
+            <header>
+              <h1>Ramadan 12, 1445 (Fri, 22 March 2024)</h1>
+            </header>
+            <div class="times">
+              <div class="time">
+                <span class="icon"
+                  ><img src="./photos/Group 37515.svg" alt="" />
+                  <h2>Fajr</h2></span
+                >
+
+                <p>05:59 AM</p>
+              </div>
+              <div class="time">
+                <span class="icon"
+                  ><img src="./photos/Group 37635.svg" alt="" />
+                  <h2>Dhuhr</h2></span
+                >
+
+                <p>12:21 PM</p>
+              </div>
+              <div class="time">
+                <span class="icon"
+                  ><img src="./photos/Group 37636.svg" alt="" />
+                  <h2>Asr</h2></span
+                >
+
+                <p>03:03 PM</p>
+              </div>
+              <div class="time">
+                <span class="icon"
+                  ><img src="./photos/Group 37637.svg" alt="" />
+                  <h2>Maghrib</h2></span
+                >
+
+                <p>06:29 PM</p>
+              </div>
+              <div class="time">
+                <span class="icon"
+                  ><img src="./photos/Vector.svg" alt="" />
+                  <h2>Isha</h2></span
+                >
+
+                <p>07:45 PM</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
